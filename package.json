@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "nextjs-todo-app",
+  "version": "1.0.0",
+  "repository": "git@github.com:saltyshiomix/nextjs-todo-app.git",
+  "author": "Shiono Yoshihide <shiono.yoshihide@gmail.com>",
+  "license": "MIT"
+}
