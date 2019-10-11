@@ -8,17 +8,28 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "cross-env NODE_ENV=production next start"
   },
   "dependencies": {
     "next": "^9.1.1",
+    "next-redux-wrapper": "^4.0.1",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "react-redux": "^7.1.1",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0"
   },
   "devDependencies": {
     "@types/node": "^12.7.12",
     "@types/react": "^16.9.5",
     "@types/react-dom": "^16.9.1",
+    "@types/react-redux": "^7.1.4",
+    "@types/recompose": "^0.30.7",
+    "@types/redux-logger": "^3.0.7",
+    "cross-env": "^6.0.3",
     "typescript": "^3.6.4"
   }
 }
