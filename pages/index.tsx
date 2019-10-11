@@ -1,6 +1,6 @@
 import {
-  NextComponentType,
   NextPageContext,
+  NextComponentType,
 } from 'next';
 import { compose } from 'recompose';
 import { connect } from 'react-redux';
