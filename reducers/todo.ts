@@ -25,6 +25,10 @@ export default (state = initialState, action) => {
     }
 
     case TODO_ADD: {
+      if (item.value === '') {
+        return state;
+      }
+
       return Object.assign({}, state, {
         item: {
           value: '',
