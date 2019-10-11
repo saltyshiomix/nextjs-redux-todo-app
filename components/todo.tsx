@@ -1,8 +1,7 @@
 import React from 'react';
 import { compose } from 'recompose';
-import { IndexPageProps } from '../interfaces';
 
-const Todo: React.FC<IndexPageProps> = (props) => {
+const Todo= (props) => {
   const {
     item,
     data,
