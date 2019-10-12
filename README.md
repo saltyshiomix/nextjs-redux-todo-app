@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://i.imgur.com/sXfwy7l.png">
+</p>
+
 ## Features
 
 - Minimal but well structured
