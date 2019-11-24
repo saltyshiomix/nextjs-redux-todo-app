@@ -30,6 +30,6 @@
     "@types/recompose": "^0.30.7",
     "@types/redux-logger": "^3.0.7",
     "cross-env": "^6.0.3",
-    "typescript": "^3.6.4"
+    "typescript": "^3.7.2"
   }
 }
